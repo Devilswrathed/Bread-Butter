@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="div.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    
+<section>
+    <nav>
+
+        <div class="navigation">
+
+            <ul>
+                <li >
+                    <a href="index.html" >Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+
+                <li>
+                    <a href="checkout.html" class="active">Checkout</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <main>
+
+        <div class="image">
+            <img src="bread.png.png" alt="bread">
+        </div>
+
+        <article>
+
+            <h2>
+                Sign in to complete your order.
+            </h2>
+
+            <form name="signUp" action="orderPage.html" onsubmit="return validateForm()" method="post">
+
+                <label for="fname">First name:</label><br>
+                <input type="text" name="fname" value=""><br><br>
+
+                <label for="fname">Last name:</label><br>
+                <input type="text" name="lname" value=""><br><br>
+
+                <label for="fname">Email address:</label><br>
+                <input type="text" name="email" value=""><br><br>
+
+                <label for="fname">Password:</label><br>
+                <input type="password" name="pword" value=""><br><br>
+
+                <input type="submit" value="Submit">
+              </form> 
+
+
+        </article>
+
+
+        
+
+
+    </main>
+
+
+</section>
+
+
+<footer>
+    
+        <div class="footer">
+    
+            <p>
+                &copy; 2021 Bread and Butter
+            </p>
+    
+        </div>
+
+</footer>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
