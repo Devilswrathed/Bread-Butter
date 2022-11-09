@@ -13,3 +13,8 @@ function validateForm() {
       return false;
     }
   }
+
+  function submitRedirect() {
+    alert('Thank you for submitting your review! You will now be redirected.');
+    window.location.href = "index.html";
+  }
