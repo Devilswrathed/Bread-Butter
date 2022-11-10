@@ -13,8 +13,8 @@ function validateForm() {
       return false;
     }
     else {
-      alert('Thank you for signing Up!');
-      window.location.href = "orderComplete.html";
+      alert('Thank you for signing up!');
+        window.location.href = "orderComplete.html";
     }
   }
 
