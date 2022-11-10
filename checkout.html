@@ -53,7 +53,7 @@
                 Sign in to complete your order.
             </h2>
 
-            <form name="signUp" onsubmit="return validateForm()" method="post">
+            <form name="signUp" id="signUp" method="post">
 
                 <label for="fname">First name:</label><br>
                 <input type="text" name="fname" value=""><br><br>
@@ -67,23 +67,8 @@
                 <label for="fname">Password:</label><br>
                 <input type="password" name="pword" value=""><br><br>
 
-                <input type="submit" value="Submit">
+                <button id="submit">Submit</button>
               </form> 
-
-              <script>
-                function validateForm() {
-                    let x = document.forms["signUp"]["fname","lname","email","pword"].value;
-                    if (x == "") {
-                    alert("Missing fields must be filled out");
-                    return false;
-                    }
-                    else {
-                    alert('Thank you for signing up!');
-                        window.location.href = "orderComplete.html";
-                    }
-                }
-              </script>
-
 
         </article>
 
