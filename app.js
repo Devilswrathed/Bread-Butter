@@ -12,6 +12,10 @@ function validateForm() {
       alert("Missing fields must be filled out");
       return false;
     }
+    else {
+      alert("Thank you for signing Up!")
+      window.location.href = "orderComplete.html";
+    }
   }
 
   function submitRedirect() {
