@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <script src="validateForm.js" defer></script>
+    <script src="app.js" defer></script>
 </head>
 
 <body>
@@ -53,7 +53,7 @@
                 Sign in to complete your order.
             </h2>
 
-            <form name="signUp" id="signUp" method="post">
+            <form name="signUp" onsubmit="return validateForm()" method="post">
 
                 <label for="fname">First name:</label><br>
                 <input type="text" name="fname" value=""><br><br>
@@ -67,7 +67,7 @@
                 <label for="fname">Password:</label><br>
                 <input type="password" name="pword" value=""><br><br>
 
-                <button id="submit">Submit</button>
+                <input type="submit" value="Submit">
               </form> 
 
         </article>
