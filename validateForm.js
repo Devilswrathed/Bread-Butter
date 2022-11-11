@@ -18,7 +18,7 @@
   // }
 
 
-const signUp = document.querySelector(".signUp")
+const signUp = document.getElementsByName("signUp")
 
 signUp.addEventListener ('click', e => {
   let x = document.forms["signUp"]["fname","lname","email","pword"].value;
