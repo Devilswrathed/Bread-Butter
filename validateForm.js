@@ -9,7 +9,6 @@ function validateForm() {
     else {
       alert('Thank you for signing up!');
       window.location.href = "orderComplete.html";
-      orderRedirect()
     }
   }
 
