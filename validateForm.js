@@ -20,13 +20,13 @@
 // signUp.addEventListener('submit', validateForm())
 // button.addEventListener('submit', redirect())
 
-document.getElementById("signUp").addEventListener("submit", validateForm)
+// document.getElementById("signUp").addEventListener("submit", validateForm)
 
 
-function validateForm() {
-  let x = document.forms["signUp"]["fname","lname","email","pword"].value;
-    if (x == "") {
-      alert("Missing fields must be filled out");
-    valid = false;
-  }
-}
+// function validateForm() {
+//   let x = document.forms["signUp"]["fname","lname","email","pword"].value;
+//     if (x == "") {
+//       alert("Missing fields must be filled out");
+//     valid = false;
+//   }
+// } 
