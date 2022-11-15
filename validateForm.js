@@ -33,6 +33,10 @@
 
 var form = document.getElementById('form');
 
+function redirect() {
+  alert("Thank you for signing up!")
+  window.location.href = ("orderComplete.html") 
+}
 
 form.addEventListener('submit', function(event) {
   event.preventDefault() // prevents for from auto submitting
@@ -45,11 +49,7 @@ form.addEventListener('submit', function(event) {
 
   var password = document.getElementById('pword').value
 
-
-  if (value == true) {
-    alert("Thank you for signing up!")
-    window.location.href = ("orderComplete.html")
-  }
-
+  return redirect()
 
 })
+
