@@ -54,7 +54,7 @@
                 Sign in to complete your order.
             </h2>
 
-            <form name="signUp" id='signUp' onsubmit="return (validateForm())" method="post">
+            <form id='signUp' onsubmit="validateForm()" action="orderComplete.html">
 
                 <label for="fname">First name:</label><br>
                 <input type="text" name="fname" value=""><br><br>
@@ -68,7 +68,7 @@
                 <label for="fname">Password:</label><br>
                 <input type="password" name="pword" value=""><br><br>
 
-                <button type="submit" id="button">Register </button>
+                <input type="submit" value="submit" id="button">Register </button>
               </form> 
 
         </article>
