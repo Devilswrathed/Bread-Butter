@@ -1,11 +1,11 @@
-// document.getElementById('signUp').addEventListener('submit', validateForm());
-// document.getElementById('button').addEventListener('click', redirect());
+document.getElementById('signUp').addEventListener('submit', validateForm());
+document.getElementById('button').addEventListener('click', redirect());
 
-const signUp = document.querySelector("#signUp")
-const button = document.querySelector("#button")
+// const signUp = document.querySelector("#signUp")
+// const button = document.querySelector("#button")
 
-signUp.addEventListener('submit', validateForm())
-button.addEventListener('submit', redirect())
+// signUp.addEventListener('submit', validateForm())
+// button.addEventListener('submit', redirect())
 
 
 
