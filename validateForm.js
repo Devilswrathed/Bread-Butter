@@ -1,30 +1,16 @@
-// document.getElementById('signUp').addEventListener('submit', validateForm());
 
-
-// function validateForm() {
-//   let x = document.forms["signUp"]["fname","lname","email","pword"].value;
-//     if (x == "") {
-//       alert("Missing fields must be filled out");
-//     valid = false;
-//   }
-// }
-
-
-
-
-
-const form = document.getElementById('signUp');
-form.addEventListener("click", validateForm());
-
-function checkoutRedirect() {
-  alert('Thank you for signing up!');
-  window.location.href = "orderComplete.html";
-}
+document.getElementById('signUp').addEventListener('submit', validateForm());
+document.getElementById('button').addEventListener('click', redirect());
 
 function validateForm() {
   let x = document.forms["signUp"]["fname","lname","email","pword"].value;
-  if (x == "") {
-    alert("Missing fields must be filled out!");
+    if (x == "") {
+      alert("Missing fields must be filled out");
+    valid = false;
   }
-  else checkoutRedirect()
+}
+
+function redirect() {
+  alert('Thank you for signing up! You will now be redirected.')
+  window.location.href = ('orderComplete.html')
 }
