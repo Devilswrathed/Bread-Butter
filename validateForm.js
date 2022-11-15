@@ -1,5 +1,5 @@
 document.getElementById('signUp').addEventListener('submit', validateForm());
-document.getElementById('button').addEventListener('click', redirect());
+document.getElementById('button').addEventListener('submit', redirect());
 
 // const signUp = document.querySelector("#signUp")
 // const button = document.querySelector("#button")
