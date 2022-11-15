@@ -18,13 +18,7 @@
 // document.getElementById("signUp").addEventListener("submit", validateForm())
 
 
-// function validateForm() {
-//   const signUp = document.forms["signUp"]["fname","lname","email","pword"].value;
-//     if (signUp == "") {
-//       alert("Missing fields must be filled out");
-//     valid = false;
-//   }
-// } 
+
 
 
 const signUp = document.querySelector("#signUp")
@@ -37,7 +31,13 @@ signUp.addEventListener('submit', e => {
   }
     redirect()
   
-}
+})
 
-)
 
+function validateForm() {
+  const signUp = document.forms["signUp"]["fname","lname","email","pword"].value;
+    if (signUp == "") {
+      alert("Missing fields must be filled out");
+    valid = false;
+  }
+} 
