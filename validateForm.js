@@ -20,7 +20,7 @@
 // signUp.addEventListener('submit', validateForm())
 // button.addEventListener('submit', redirect())
 
-// document.getElementById("signUp").addEventListener("submit", validateForm)
+document.getElementById("signUp").addEventListener("submit", validateForm())
 
 
 function validateForm() {
