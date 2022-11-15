@@ -46,4 +46,10 @@ form.addEventListener('submit', function(event) {
   var password = document.getElementById('pword').value
 
 
+  if (value == true) {
+    alert("Thank you for signing up!")
+    window.location.href = ("orderComplete.html")
+  }
+
+
 })
